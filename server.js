@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const Credential = require('./models/Credential'); 
+const Credential = require('./Models/Credential'); 
 require('dotenv').config();
 
 const app = express();
